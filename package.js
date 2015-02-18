@@ -14,14 +14,20 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0.3.1');
 
   api.use([
-      'parhelium:ractive-templating',
+      'parhelium:logger',
+      'templating',
+      'parhelium:templating-ractive',
+  ], client);
+
+  api.imply([
+      'parhelium:templating-ractive',
   ], client);
 
   api.addFiles( [
       'lib/ractive-component.html',
-      'lib/ractive-component.js',
+      'lib/ractive-component.js'
   ], client);
 
-  //api.export('RactiveComponent', client)
+  api.export('RactiveComponent', client)
 });
 
