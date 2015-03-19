@@ -3,7 +3,7 @@
 
 Package allows for easy usage of [Ractive](http://ractivejs.org)'s  component in [Blaze](http://meteor.github.io/blaze/)'s templates.
 
-It is based on avital:react-in-blaze package.
+It is based on [avital:react-in-blaze](https://atmospherejs.com/avital/react-in-blaze) package.
 
 ## Usage
 
