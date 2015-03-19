@@ -5,9 +5,30 @@ Package allows for easy usage of [Ractive](http://ractivejs.org)'s  component in
 
 It is based on avital:react-in-blaze package.
 
+## Usage
+
+### Using in Blaze's template
+
 ```
 {{> RactiveComponent name='ComponentA' data=.}}
 {{> RactiveComponent name='ComponentA' data=. class='cssClass1 cssClass2}}
 ```
+
+### Preparing Ractive's component
+
+
+** path/ComponentA.js** :
+
+```
+ComponentA = Ractive.extend({})
+```
+
+**path/ComponentA.ract** :
+
+```
+I'm ComponentA
+```
+
+
 
 Ractive instance is being created only when passed `data` is not null and not empty.
