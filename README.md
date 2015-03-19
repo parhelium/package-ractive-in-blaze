@@ -17,7 +17,7 @@ It is based on avital:react-in-blaze package.
 ### Preparing Ractive's component
 
 
-** path/ComponentA.js** :
+**path/ComponentA.js** :
 
 ```
 ComponentA = Ractive.extend({})
