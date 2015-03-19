@@ -14,7 +14,7 @@ It is based on avital:react-in-blaze package.
 {{> RactiveComponent name='ComponentA' data=. class='cssClass1 cssClass2}}
 ```
 
-### Preparing Ractive's component
+### Preparing [Ractive](http://ractivejs.org)'s component
 
 
 **path/ComponentA.js** :
@@ -31,4 +31,4 @@ I'm ComponentA
 
 
 
-Ractive instance is being created only when passed `data` is not null and not empty.
+[Ractive](http://ractivejs.org) instance is being created only when passed `data` is not null and not empty.
