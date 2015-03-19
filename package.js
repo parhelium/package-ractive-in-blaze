@@ -14,10 +14,9 @@ Package.onUse(function(api) {
   api.versionsFrom('1.0.3.1');
 
   api.use([
-      'parhelium:logger',
       'templating',
-      'parhelium:templating-ractive',
-      'hb5:meteor-is.js'
+      'parhelium:templating-ractive@0.6.0_3',
+      'hb5:meteor-is.js@0.0.1'
   ], client);
 
   api.imply([
