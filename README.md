@@ -1,10 +1,9 @@
-Package allows to inject [Ractive](http://ractivejs.org)'s  component to Blaze template in nice way.
+Package allows for easy usage of [Ractive](http://ractivejs.org)'s  component in Blaze's templates.
 =================
 
 It is based on avital:react-in-blaze package.
 
 ```
-{{> RactiveComponent name='ComponentA' data=.}}
+    {{> RactiveComponent name='ComponentA' data=.}}
+    {{> RactiveComponent name='ComponentA' data=. class='cssClass1 cssClass2}}
 ```
-
-[Example usage](https://github.com/parhelium/laboratory/tree/master/meteor/ractive-component-integration)
