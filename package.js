@@ -1,8 +1,8 @@
 Package.describe({
   name: 'parhelium:ractive-in-blaze',
-  version: '0.0.1',
-  summary: '',
-  git: '',
+  version: '0.0.2',
+  summary: 'Allows for easy injection of Ractive component to Blaze templates.',
+  git: 'https://github.com/parhelium/package-ractive-in-blaze',
   documentation: 'README.md'
 });
 
@@ -17,6 +17,7 @@ Package.onUse(function(api) {
       'parhelium:logger',
       'templating',
       'parhelium:templating-ractive',
+      'hb5:meteor-is.js'
   ], client);
 
   api.imply([
