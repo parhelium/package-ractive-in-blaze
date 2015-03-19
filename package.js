@@ -1,6 +1,6 @@
 Package.describe({
   name: 'parhelium:ractive-in-blaze',
-  version: '0.0.3',
+  version: '0.0.3_1',
   summary: 'Allows for easy injection of Ractive component to Blaze templates.',
   git: 'https://github.com/parhelium/package-ractive-in-blaze',
   documentation: 'README.md'
