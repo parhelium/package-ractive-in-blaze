@@ -1,5 +1,7 @@
-Package allows for easy usage of [Ractive](http://ractivejs.org)'s  component in Blaze's templates.
+[Ractive](http://ractivejs.org)'s  component in [Blaze](http://meteor.github.io/blaze/)'s templates.
 =================
+
+Package allows for easy usage of [Ractive](http://ractivejs.org)'s  component in [Blaze](http://meteor.github.io/blaze/)'s templates.
 
 It is based on avital:react-in-blaze package.
 
