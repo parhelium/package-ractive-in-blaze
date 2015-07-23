@@ -31,6 +31,4 @@ I'm ComponentA
 ```
 
 
-
-[Ractive](http://ractivejs.org) instance is being created only when passed `data` is not null and not empty.
 Parameter `options` allows to configure Ractive component.
