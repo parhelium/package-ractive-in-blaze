@@ -11,7 +11,8 @@ It is based on [avital:react-in-blaze](https://atmospherejs.com/avital/react-in-
 
 ```
 {{> RactiveComponent name='ComponentA' data=.}}
-{{> RactiveComponent name='ComponentA' data=. class='cssClass1 cssClass2}}
+{{> RactiveComponent name='ComponentA' data=. class='cssClass1 cssClass2'}}
+{{> RactiveComponent name='ComponentA' data=. options=ractiveComponentOptions class='cssClass1 cssClass2'}}
 ```
 
 ### Preparing [Ractive](http://ractivejs.org)'s component
@@ -32,3 +33,4 @@ I'm ComponentA
 
 
 [Ractive](http://ractivejs.org) instance is being created only when passed `data` is not null and not empty.
+Parameter `options` allows to configure Ractive component.
